@@ -31,6 +31,7 @@ namespace Testing
         [Fact] public void Day06_Part2_3() => Assert.Equal("23", Runner.GetDay(2022, 6).Part2("nppdvjthqldpwncqszvftbrmjlhg"));
         [Fact] public void Day06_Part2_4() => Assert.Equal("29", Runner.GetDay(2022, 6).Part2("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"));
         [Fact] public void Day06_Part2_5() => Assert.Equal("26", Runner.GetDay(2022, 6).Part2("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"));
+
         [Fact] public void Day07_Part1() => Assert.Equal("95437", Runner.GetDay(2022, 7).Part1(@"..\..\..\..\Test Inputs\2022-07.txt"));
         [Fact] public void Day07_Part2() => Assert.Equal("24933642", Runner.GetDay(2022, 7).Part2(@"..\..\..\..\Test Inputs\2022-07.txt"));
 

@@ -20,8 +20,8 @@ namespace _2022.Days
         public string Part1(string input)
         {
             input ??= @"..\..\..\..\Inputs\2022-07.txt";
-            Dictionary<string, List<int>> files = GetDirectorySizes(input);
 
+            Dictionary<string, List<int>> files = GetDirectorySizes(input);
             int total = 0;
 
             foreach (var x in files.Keys)
@@ -40,8 +40,8 @@ namespace _2022.Days
         public string Part2(string input)
         {
             input ??= @"..\..\..\..\Inputs\2022-07.txt";
-            Dictionary<string, List<int>> files = GetDirectorySizes(input);
 
+            Dictionary<string, List<int>> files = GetDirectorySizes(input);
             int totalDiskSpaceAvailable = 70000000; 
             int usedSpace = files["/"].Sum(x => x); ;
             int neededFreeSpace = 30000000;

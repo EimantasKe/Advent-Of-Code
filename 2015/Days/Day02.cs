@@ -16,10 +16,12 @@ namespace _2015.Days
         public string Part1(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2015-02.txt";
+
             int total = 0;
             int count = 0;
             int[] sides = new int[3];
             string line;
+
             using (StreamReader sr = input.GetStream())
             {
                 while ((line = sr.ReadLine()) != null)
@@ -44,9 +46,11 @@ namespace _2015.Days
         public string Part2(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2015-02.txt";
+
             int total = 0;
             int[] sides = new int[3];
             string line;
+
             using(StreamReader sr = input.GetStream())
             {
                 while ((line = sr.ReadLine()) != null)

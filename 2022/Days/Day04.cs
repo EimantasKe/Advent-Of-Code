@@ -16,8 +16,10 @@ namespace _2022.Days
         public string Part1(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2022-04.txt";
+
             int count = 0;
             string line;
+
             using (StreamReader sr = input.GetStream())
             {
                 while ((line = sr.ReadLine()) != null)
@@ -40,8 +42,10 @@ namespace _2022.Days
         public string Part2(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2022-04.txt";
+
             int count = 0;
             string line;
+
             using (StreamReader sr = input.GetStream())
             {
                 while ((line = sr.ReadLine()) != null)

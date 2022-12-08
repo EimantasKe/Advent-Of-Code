@@ -16,7 +16,9 @@ namespace _2015.Days
         public string Part1(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2015-01.txt";
+
             int floor = 0;
+
             using (StreamReader sr = input.GetStream())
             {
                 
@@ -37,8 +39,10 @@ namespace _2015.Days
         public string Part2(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2015-01.txt";
+
             int i = 0;
             int floor = 0;
+
             using (StreamReader sr = input.GetStream())
             {
                

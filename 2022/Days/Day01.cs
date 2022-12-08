@@ -19,6 +19,7 @@ namespace _2022.Days
 
             int maxSum = 0;
             int currentSum = 0;
+
             using (StreamReader sr = input.GetStream())
             {
                 string line;
@@ -44,6 +45,7 @@ namespace _2022.Days
 
             int currentSum = 0;
             List<int> allSums = new List<int>();
+
             using (StreamReader sr = input.GetStream())
             {
                 string line;

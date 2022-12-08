@@ -16,8 +16,10 @@ namespace _2015.Days
         public string Part1(string? input)
         {
             input ??= "bgvyzdsv";
+
             int i = 0;
             bool found = false;
+
             using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
             {
                 while (!found)
@@ -38,6 +40,7 @@ namespace _2015.Days
         public string Part2(string? input)
         { 
             input ??= "bgvyzdsv";
+
             int i = 0;
             bool found = false;
 

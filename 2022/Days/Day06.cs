@@ -16,9 +16,9 @@ namespace _2022.Days
         public string Part1(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2022-06.txt";
-            char mostOccuring;
             Queue<char> queue = new Queue<char>();
             int position = 0;
+
             using (StreamReader sr = input.GetStream())
             {
 
@@ -45,9 +45,9 @@ namespace _2022.Days
         public string Part2(string? input)
         {
             input ??= @"..\..\..\..\Inputs\2022-06.txt";
-            char mostOccuring;
             Queue<char> queue = new Queue<char>();
             int position = 0;
+
             using (StreamReader sr = input.GetStream())
             {
 

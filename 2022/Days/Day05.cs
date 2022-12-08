@@ -17,6 +17,7 @@ namespace _2022.Days
         public string Part1(string input)
         {
             input ??= @"..\..\..\..\Inputs\2022-05.txt";
+
             var stream = input.GetStream();
             Dictionary<int, Stack<char>> stacks = new();
             stacks = ReadStacks(stream, stacks);
@@ -24,6 +25,7 @@ namespace _2022.Days
             String[] separator = { "move ", " from ", " to " };
             String[] cleanList;
             string answer = String.Empty;
+
             while ((line = stream.ReadLine()) != null)
             {
                 cleanList = line.Split(separator, 3, StringSplitOptions.RemoveEmptyEntries);
@@ -47,6 +49,7 @@ namespace _2022.Days
         public string Part2(string input)
         {
             input ??= @"..\..\..\..\Inputs\2022-05.txt";
+
             var stream = input.GetStream();
             Dictionary<int, Stack<char>> stacks = new();
             stacks = ReadStacks(stream, stacks);
@@ -55,6 +58,7 @@ namespace _2022.Days
             String[] cleanList;
             string answer = String.Empty;
             List<char> savedStack = new List<char>();
+
             while ((line = stream.ReadLine()) != null)
             {
                 savedStack = new List<char>();

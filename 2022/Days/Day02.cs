@@ -19,6 +19,7 @@ namespace _2022.Days
             
             int total = 0;
             string line;
+
             using (StreamReader sr = input.GetStream())
             {
                 while ((line = sr.ReadLine()) != null)
@@ -35,6 +36,7 @@ namespace _2022.Days
 
             int total = 0;
             string line;
+
             using (StreamReader sr = input.GetStream())
             {
                 while ((line = sr.ReadLine()) != null)
